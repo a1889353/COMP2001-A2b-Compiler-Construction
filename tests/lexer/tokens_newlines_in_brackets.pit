@@ -1,0 +1,7 @@
+let hot = [27.4[psi],
+           28.6[psi]]
+print(1,
+      2)   # newlines inside ( ) and [ ] are ignored
+
+
+print("done\n")

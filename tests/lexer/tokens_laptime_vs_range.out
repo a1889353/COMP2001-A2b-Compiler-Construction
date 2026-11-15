@@ -1,0 +1,27 @@
+line  kind          value
+   1  NAME          print
+   1  LPAREN        (
+   1  LAPTIME       1:32.318  = 92.318 s
+   1  COMMA         ,
+   1  LAPTIME       2:01.345  = 121.345 s
+   1  COMMA         ,
+   1  LAPTIME       1:31.0  = 91.0 s
+   1  RPAREN        )
+   1  NEWLINE       \n
+   2  FOR           for
+   2  NAME          i
+   2  IN            in
+   2  NUMBER        0
+   2  DOTDOT        ..
+   2  NUMBER        3
+   2  LBRACE        {
+   2  RBRACE        }
+   2  NEWLINE       \n
+   3  NAME          print
+   3  LPAREN        (
+   3  NUMBER        1.5
+   3  DOTDOT        ..
+   3  NUMBER        3
+   3  RPAREN        )
+   3  NEWLINE       \n
+   3  EOF
