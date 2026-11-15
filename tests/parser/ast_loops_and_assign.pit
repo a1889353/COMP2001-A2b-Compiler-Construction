@@ -1,0 +1,7 @@
+var laps = 0
+repeat 3 times { laps += 1 }
+for lap in [1, 2] { continue }
+while false { break }
+grid[1][0] = 5
+unit stint = 25 lap
+{ var x = 2 }

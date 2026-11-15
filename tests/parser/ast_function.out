@@ -1,0 +1,21 @@
+Program
+  FnDecl fact(n)  (line 1)
+    Block  (line 1)
+      If  (line 2)
+        if: BinOp <=
+          Name n
+          Number 1
+        then: Block  (line 2)
+          Return  (line 2)
+            Number 1
+      Return  (line 3)
+        BinOp *
+          Name n
+          Call fact
+            BinOp -
+              Name n
+              Number 1
+  ExprStmt  (line 5)
+    Call print
+      Call fact
+        Number 5

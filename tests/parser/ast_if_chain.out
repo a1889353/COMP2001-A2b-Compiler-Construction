@@ -1,0 +1,20 @@
+Program
+  If  (line 1)
+    if: BinOp <
+      Name p
+      Number 26.0 [psi]
+    then: Block  (line 1)
+      ExprStmt  (line 1)
+        Call print
+          String "low"
+    elif: BinOp >
+      Name p
+      Number 28.0 [psi]
+    then: Block  (line 2)
+      ExprStmt  (line 2)
+        Call print
+          String "high"
+    else: Block  (line 3)
+      ExprStmt  (line 3)
+        Call print
+          String "ok"

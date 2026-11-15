@@ -1,0 +1,2 @@
+Error line 1: expected a new line or ; before token 'print'
+[exit 1]

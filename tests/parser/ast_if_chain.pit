@@ -1,0 +1,3 @@
+if p < 26.0[psi] { print("low") }
+elif p > 28.0[psi] { print("high") }
+else { print("ok") }

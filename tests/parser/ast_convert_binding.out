@@ -1,0 +1,11 @@
+Program
+  Declare let track  (line 1)
+    Number 4.318 [km]
+  Declare let pace  (line 2)
+    Number 90.087 [s]
+  ExprStmt  (line 3)
+    Call print
+      Convert to [km/h]
+        BinOp /
+          Name track
+          Name pace

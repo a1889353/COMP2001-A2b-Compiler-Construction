@@ -1,0 +1,25 @@
+Program
+  ExprStmt  (line 1)
+    Call print
+      BinOp -
+        BinOp +
+          Number 2
+          BinOp *
+            Number 3
+            Number 4
+        BinOp /
+          Number 6
+          Number 3
+  ExprStmt  (line 2)
+    Call print
+      Logical or
+        Logical and
+          Unary not
+            BinOp <
+              Name a
+              Name b
+          Name c
+        BinOp *
+          Unary -
+            Name d
+          Name e

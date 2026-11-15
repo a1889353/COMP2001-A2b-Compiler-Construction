@@ -1,0 +1,28 @@
+Program
+  Declare var laps  (line 1)
+    Number 0
+  Repeat  (line 2)
+    times: Number 3
+    body: Block  (line 2)
+      Assign laps +=  (line 2)
+        Number 1
+  ForIn lap  (line 3)
+    in: List (2 items)
+      Number 1
+      Number 2
+    body: Block  (line 3)
+      Continue  (line 3)
+  While  (line 4)
+    cond: Bool false
+    body: Block  (line 4)
+      Break  (line 4)
+  IndexAssign  (line 5)
+    list: Index
+      Name grid
+      index: Number 1
+    index: Number 0
+    value: Number 5
+  UnitDecl stint = 25 lap  (line 6)
+  Block  (line 7)
+    Declare var x  (line 7)
+      Number 2

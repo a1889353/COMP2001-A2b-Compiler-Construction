@@ -1,0 +1,3 @@
+let track = 4.318[km]
+let pace = 1:30.087
+print(track / pace to [km/h])
