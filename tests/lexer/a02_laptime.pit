@@ -1,0 +1,2 @@
+print(2:01.345)
+print(laptime(121.345[s]))

@@ -1,0 +1,22 @@
+== <main> ==
+line  addr  opcode                argument
+   1     0  CONST                 5[L]
+   1     1  DEFINE                fuel
+   2     2  LOAD                  fuel
+   2     3  CONST                 10[L]
+   2     4  LT
+   2     5  JUMP_IF_FALSE         13
+   2     6  ENTER_SCOPE
+   2     7  LOAD                  print
+   2     8  CONST                 "box"
+   2     9  CALL                  print 1 arg
+   2    10  POP
+   2    11  EXIT_SCOPE
+   2    12  JUMP                  19
+   2    13  ENTER_SCOPE
+   2    14  LOAD                  print
+   2    15  CONST                 "stay out"
+   2    16  CALL                  print 1 arg
+   2    17  POP
+   2    18  EXIT_SCOPE
+   2    19  HALT

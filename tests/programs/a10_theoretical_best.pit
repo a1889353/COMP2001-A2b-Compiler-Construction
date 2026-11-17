@@ -1,0 +1,13 @@
+# Red Bull Ring: rows = laps, columns = S1, S2, S3
+let sectors = [[30.412[s], 34.105[s], 25.570[s]],
+               [30.288[s], 34.391[s], 25.702[s]],
+               [30.501[s], 34.017[s], 25.644[s]]]
+var ideal = 0[s]
+for i in 0..3 {
+    var best = sectors[0][i]
+    for lap in sectors {
+        if lap[i] < best { best = lap[i] }
+    }
+    ideal += best
+}
+print("Theoretical best:", laptime(ideal))

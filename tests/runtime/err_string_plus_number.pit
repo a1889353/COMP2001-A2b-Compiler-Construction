@@ -1,0 +1,2 @@
+var fuel = 5
+print("Fuel: " + fuel)

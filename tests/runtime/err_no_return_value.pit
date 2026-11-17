@@ -1,0 +1,2 @@
+fn warn() { print("low fuel") }
+var x = warn()

@@ -1,0 +1,7 @@
+== <main> ==
+line  addr  opcode                argument
+   2     0  LOAD                  print
+   2     1  CONST                 2
+   2     2  CALL                  print 1 arg
+   2     3  POP
+   2     4  HALT

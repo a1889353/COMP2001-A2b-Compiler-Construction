@@ -1,0 +1,18 @@
+== <main> ==
+line  addr  opcode                argument
+   1     0  CONST                 false
+   1     1  DEFINE                wet
+   2     2  CONST                 true
+   2     3  DEFINE                hot
+   3     4  LOAD                  print
+   3     5  LOAD                  wet
+   3     6  JUMP_IF_FALSE_OR_POP  9
+   3     7  LOAD                  hot
+   3     8  CHECK_BOOL
+   3     9  LOAD                  wet
+   3    10  JUMP_IF_TRUE_OR_POP   13
+   3    11  LOAD                  hot
+   3    12  CHECK_BOOL
+   3    13  CALL                  print 2 args
+   3    14  POP
+   3    15  HALT

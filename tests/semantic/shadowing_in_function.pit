@@ -1,0 +1,4 @@
+var x = 10
+fn show(x) { print(x) }
+show(3)
+print(x)

@@ -1,0 +1,5 @@
+fn stops_for(fuel, cap) {
+    if fuel <= cap { return 0 }
+    return ceil(fuel / cap) - 1
+}
+print(stops_for(83.7[L], 50[L]))

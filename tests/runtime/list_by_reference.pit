@@ -1,0 +1,5 @@
+fn add_lap(laps, t) { push(laps, t) }
+let stint = []
+add_lap(stint, 1:32.1)
+add_lap(stint, 1:31.9)
+print(len(stint), stint)

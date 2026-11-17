@@ -1,0 +1,20 @@
+# Race fuel & Pit Stop Planner
+# Fuel plan: iRacing IMSA, BMW M4 GT3 EVO, Red Bull Ring
+let race = 45[min]
+let tank = 50[L]          # fuel cap for this race week
+let burn = 2.7[L/lap]     # estimated fuel use
+let pace = 1:32.318 / 1[lap]   # my race-average lap
+
+fn stops_for(fuel, cap) {
+    if fuel <= cap { return 0 }
+    return ceil(fuel / cap) - 1    # L / L = number
+}
+
+let race_laps = ceil(race / pace to [lap])
+# +1 lap: leader may start a lap as time expires
+let fuel = (race_laps + 1[lap]) * burn
+print("Race laps:", race_laps)
+print("Fuel needed:", round(fuel, 1))
+print("Laps per tank:", round(tank / burn, 1))
+print("Fuel stops:", stops_for(fuel, tank))
+check race_laps == 30[lap]   # matches my real result

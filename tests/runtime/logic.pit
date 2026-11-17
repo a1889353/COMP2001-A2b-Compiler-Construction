@@ -1,0 +1,2 @@
+print(not true or false)
+print(1:30.0 < 1:31.0)

@@ -1,0 +1,3 @@
+var wet = false
+var hot = true
+print(wet and hot, wet or hot)

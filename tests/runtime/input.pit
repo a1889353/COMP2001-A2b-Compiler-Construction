@@ -1,0 +1,2 @@
+let laps = num(input("Laps? "))
+print(laps * 1[lap] * 2.7[L/lap])

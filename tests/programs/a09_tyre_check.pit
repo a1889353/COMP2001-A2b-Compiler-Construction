@@ -1,0 +1,12 @@
+fn tyre(p) {
+    if p < 26.0[psi] { return "low" }
+    elif p > 28.0[psi] { return "high" }
+    else { return "ok" }
+}
+let hot = [27.4[psi], 28.6[psi],
+           25.8[psi], 27.9[psi]]
+let corner = ["FL", "FR", "RL", "RR"]
+for i in 0..len(hot) {
+    print(corner[i], tyre(hot[i]),
+          round(hot[i] to [kPa], 1))
+}

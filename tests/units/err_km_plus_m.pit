@@ -1,0 +1,2 @@
+var d = 1[km]
+print(d + 1[m])
